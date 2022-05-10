@@ -1,4 +1,4 @@
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install -y wget
+RUN apt-get install -y wget cmake 
